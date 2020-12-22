@@ -1,4 +1,86 @@
-.menu_item_one_large, .menu_item_two_large{
-	size: 20px;
-	float: left;
+.center_text {
+	text-align: center;
 }
+
+body {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+h1 {
+	font-size: 175%;
+	margin-bottom: 60px;
+}
+
+#chicken {
+	background-color: #d59898;
+}
+
+#beef {
+	background-color: #c14543;
+}
+
+#sushi {
+	background-color: #e5d198;
+}
+
+.h2 {
+  	width: 22.5%;
+  	position: relative;
+  	right: -77.1%;
+  	font-size: 125%;
+  	border-style: solid;
+  }
+
+/* For mobile phones: */
+@media (max-width: 767px){
+	.p1-small{
+	width: 94.7%;
+  	float: left;
+  	background-color: #999999;
+  	border-style: solid;
+  	margin-right: 10px;
+  	margin-left: 10px;
+  	margin-bottom: 20px;
+  }
+}
+
+  /* For tablets: */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .p1-tb {
+  	width: 46%;
+  	float: left;
+  	background-color: #999999;
+  	border-style: solid;
+  	margin-right: 10px;
+  	margin-left: 10px;
+  	margin-bottom: 20px;
+  }
+
+  .p2-tb {
+  	width: 94.7%;
+  	float: left;
+  	background-color: #999999;
+  	border-style: solid;
+  	margin-right: 10px;
+  	margin-left: 10px;
+  	margin-bottom: 20px;
+  }
+
+}
+
+/* For desktop: */
+@media (min-width: 992px) {
+  .p1-dt {
+  	width: 31%;
+  	float: left;
+  	background-color: #999999;
+  	border-style: solid;
+  	margin-right: 10px;
+  	margin-left: 10px;
+  	margin-bottom: 20px;
+   }
+
+  
+}
+
