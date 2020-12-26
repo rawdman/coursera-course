@@ -1,0 +1,49 @@
+
+
+#header-nav {
+	background-color: #999999;
+	border-radius: 0;
+	border-color: black;
+}
+
+.navbar-brand h1 {
+	color: black;
+	font-size: 150%;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -40px;
+}
+
+@media (max-width: 768px) {
+  .menu-items{
+    width: 75%;
+  }
+ }
+
+.collapse {
+	font-size: 2em;
+	background-color: white;
+}
+
+.collapse a {
+	color: black;
+}
+
+div > .container{
+	border-bottom: 1px solid black;
+}
+
+.container.menu-items {
+	color: black;
+	background-color: #999999;
+	border-bottom: 10px;
+	border-top: 10px;
+	border-color: white;
+
+}
